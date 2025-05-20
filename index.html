@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <header class="cabecera"></header>
+        <nav class="navegacion"></nav>
+        <section>
+            <article>
+                <h1>Qué es ECMAScript</h1>
+                <p>ECMAScript específicamente es el estándar que a partir del año 2015 a la actualidad se encarga de
+                    regir
+                    como debe ser interpretado y funcionar el lenguaje JavaScript, siendo este (JS – JavaScript)
+                    interpretado y procesado por multitud de plataformas, entre las que se encuentran los navegadores
+                    web,
+                    NodeJS u otros ambientes como el desarrollo de aplicaciones para los distintos sistemas operativos
+                    que
+                    actualmente existen en el mercado. Los responsables de dichos navegadores y JavaScript deben
+                    encargarse
+                    de interpretar el lenguaje tal como lo fija ECMAScript.</p>
+            </article>
+        </section>
+
+        <section>
+            <p>La lista de versiones de ECMA Script es larga. A continuación se muestra cuáles han existido a lo largo
+                de los años.</p>
+            <table class="tabla" border="1" cellspacing="0" cellpadding="5" width="100%">
+                <caption>Versiones de ECMAScript</caption>
+                <thead>
+                    <tr>
+                        <th>Versión</th>
+                        <th>Año</th>
+                        <th>Nombre formal/informal</th>
+                        <th>Cambios significativos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ES1</td>
+                        <td>Jun / 1997</td>
+                        <td>ECMAScript 1</td>
+                        <td>Primera versión del estándar.</td>
+                    </tr>
+                    <tr>
+                        <td>ES2</td>
+                        <td>Jun / 1998</td>
+                        <td>ECMAScript 2</td>
+                        <td>Corrección de errores y mejoras menores.</td>
+                    </tr>
+                    <tr>
+                        <td>ES3</td>
+                        <td>Dic / 1999</td>
+                        <td>ECMAScript 3</td>
+                        <td>Mejoras en expresiones regulares, manejo de excepciones y otras características.</td>
+                    </tr>
+                    <tr>
+                        <td>ES4</td>
+                        <td>Propuesto en 2008</td>
+                        <td>ECMAScript 4</td>
+                        <td>Propuesta ambiciosa que nunca se implementó.</td>
+                    </tr>
+                    <tr>
+                        <td>ES5</td>
+                        <td>Dic / 2009</td>
+                        <td>ECMAScript 5</td>
+                        <td>Introducción de "strict mode", JSON y mejoras en arrays y objetos.</td>
+                    </tr>
+                    <tr>
+                        <td>ES6</td>
+                        <td>Jun / 2015</td>
+                        <td>ECMAScript 2015 (ES6)</td>
+                        <td>Introducción de clases, módulos, promesas y otras características modernas.</td>
+                    </tr>
+                    <tr>
+                        <td>ES7</td>
+                        <td>Jun / 2016</td>
+                        <td>ECMAScript 2016 (ES7)</td>
+                        <td>Introducción de "Array.prototype.includes" y el operador de exponenciación.</td>
+                    </tr>
+                    <tr>
+                        <td>ES8</td>
+                        <td>Jun / 2017</td>
+                        <td>ECMAScript 2017 (ES8)</td>
+                        <td>Introducción de "async/await", "Object.values" y "Object.entries".</td>
+                    </tr>
+                    <tr>
+                        <td>ES9</td>
+                        <td>Jul / 2018</td>
+                        <td>ECMAScript 2018 (ES9)</td>
+                        <td>Introducción de "Promise.prototype.finally" y mejoras en "rest/spread properties".</td>
+                    </tr>
+                    <tr>
+                        <td>ES10</td>
+                        <td>Jun / 2019</td>
+                        <td>ECMAScript 2019 (ES10)</td>
+                        <td>Introducción de "Array.prototype.flat" y "Object.fromEntries".</td>
+                    </tr>
+                    <tr>
+                        <td>ES11</td>
+                        <td>Jun / 2020</td>
+                        <td>ECMAScript 2020 (ES11)</td>
+                        <td>Introducción de "BigInt", "Promise.allSettled" y "import.meta".</td>
+                    </tr>
+                    <tr>
+                        <td>ES12</td>
+                        <td>Jun / 2021</td>
+                        <td>ECMAScript 2021 (ES12)</td>
+                        <td>Introducción de "String.prototype.replaceAll" y "WeakRefs".</td>
+                    </tr>
+                    <tr>
+                        <td>ES13</td>
+                        <td>Jun / 2022</td>
+                        <td>ECMAScript 2022 (ES13)</td>
+                        <td>Introducción de "class fields" y "top-level await".</td>
+                    </tr>
+                    <tr>
+                        <td>ES14</td>
+                        <td>Jun / 2023</td>
+                        <td>ECMAScript 2023 (ES14)</td>
+                        <td>Introducción de "Array.prototype.findLast" y "WeakRefs".</td>
+                    </tr>
+                    <tr>
+                        <td>ES15</td>
+                        <td>Propuesto para 2024</td>
+                        <td>ECMAScript 2024 (ES15)</td>
+                        <td>Propuestas en discusión, incluyendo mejoras en "Array" y "Object".</td>
+                    </tr>
+                    <tr>
+                        <td>ES16</td>
+                        <td>Propuesto para 2025</td>
+                        <td>ECMAScript 2025 (ES16)</td>
+                        <td>Propuestas en discusión, incluyendo mejoras en "Array" y "Object".</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <article>
+                <h1>Diferencias notorias entre versiones</h1>
+                <p>Las diferencias entre las versiones de ECMAScript son significativas, ya que cada versión introduce
+                    nuevas
+                    características y mejoras al lenguaje. Algunas de las diferencias notables incluyen:</p>
+                <ul>
+                    <li><strong>ES5:</strong> Introducción de "strict mode", que permite escribir un código más seguro y
+                        limpio.
+                    </li>
+                    <li><strong>ES6:</strong> Introducción de clases, módulos, promesas, let/const, y muchas otras
+                        características modernas.</li>
+                    <li><strong>ES7:</strong> Introducción de "Array.prototype.includes" y el operador de
+                        exponenciación.</li>
+                    <li><strong>ES8:</strong> Introducción de "async/await", que facilita la programación asíncrona.
+                    </li>
+                    <li><strong>ES9:</strong> Mejoras en "rest/spread properties" y "Promise.prototype.finally".</li>
+                    <li><strong>ES10:</strong> Introducción de "Array.prototype.flat" y "Object.fromEntries".</li>
+                    <li><strong>ES11:</strong> Introducción de "BigInt" para trabajar con números enteros grandes.</li>
+                    <li><strong>ES12:</strong> Introducción de "String.prototype.replaceAll" y "WeakRefs".</li>
+                    <li><strong>ES13:</strong> Introducción de "class fields" y "top-level await".</li>
+                    <li><strong>ES14:</strong> Introducción de "Array.prototype.findLast" y "WeakRefs".</li>
+                    <li><strong>ES15:</strong> Propuestas en discusión, incluyendo mejoras en "Array" y
+                        "Object".</li>
+                    <li><strong>ES16:</strong> Propuestas en discusión, incluyendo mejoras en "Array" y
+                        "Object".</li>
+                </ul>
+                <p>Estas diferencias reflejan la evolución del lenguaje y su adaptación a las necesidades de los
+                    desarrolladores.
+                    Cada nueva versión busca mejorar la legibilidad, la eficiencia y la facilidad de uso de JavaScript,
+                    lo que
+                    lo convierte en un lenguaje cada vez más poderoso y versátil.</p>
+                <p>Es importante destacar que no todas las características de ECMAScript son compatibles con todos los
+                    navegadores
+                    o entornos de ejecución. Por lo tanto, es recomendable verificar la compatibilidad de las
+                    características
+                    que planeas utilizar en tu proyecto.</p>
+            </article>
+        </section>
+
+        <section>
+            <h1>Como usar ECMAScript</h1>
+            <p>Para usar ECMAScript, simplemente necesitas un entorno que lo soporte. La mayoría de los navegadores
+                modernos
+                y entornos de ejecución como Node.js son compatibles con las versiones más recientes de ECMAScript.
+                Puedes
+                escribir tu código JavaScript utilizando las características de ECMAScript y ejecutarlo en estos
+                entornos.</p>
+            <p>Por ejemplo, si deseas utilizar la sintaxis de clases introducida en ECMAScript 2015, puedes escribir
+                algo
+                como esto:</p>
+            <pre>
+                <code>
+class Persona {
+                    constructor(nombre) {
+                        this.nombre = nombre;
+                    }
+
+                    saludar() {
+                        console.log(`Hola, mi nombre es ${this.nombre}`);
+                    }
+                }
+                const juan = new Persona('Juan');
+                juan.saludar(); // Salida: Hola, mi nombre es Juan
+                </code>
+            </pre>
+            <p>Este código define una clase llamada "Persona" con un constructor y un método. Luego, crea una instancia
+                de
+                la clase y llama al método "saludar".</p>
+            <p>Recuerda que ECMAScript es un estándar, por lo que las características específicas pueden variar según la
+                implementación. Asegúrate de consultar la documentación de la plataforma que estés utilizando para
+                obtener
+                información sobre las características específicas que admite.</p>
+        </section>
+
+        <section>
+            <article>
+                <h1>Ejemplos de cada version</h1>
+                <p>A continuación se presentan ejemplos de código para cada versión de ECMAScript:</p>
+                <ul>
+                    <li><strong>ES1:</strong> No hay ejemplos específicos, ya que es la primera versión del estándar.</li>
+                    <li><strong>ES2:</strong> No hay ejemplos específicos, ya que es una versión de corrección de errores.
+                    </li>
+                    <li><strong>ES3:</strong> Ejemplo de expresiones regulares:
+                        <pre>
+                            <code>
+const regex = /[a-zA-Z0-9]+/;
+const str = "Hola123";
+console.log(regex.test(str)); // Salida: true
+                            </code>
+                        </pre>
+                    </li>
+                    <li><strong>ES4:</strong> No hay ejemplos específicos, ya que esta versión nunca se implementó.</li>
+                    <li><strong>ES5:</strong> Ejemplo de "strict mode":
+                        <pre>
+                            <code>
+"use strict";
+function miFuncion() {
+    x = 3.14; // Error: x no está definido
+}
+miFuncion();
+                            </code>
+                        </pre>
+                    </li>
+                    <li><strong>ES6:</strong> Ejemplo de clases:
+                        <pre>
+                            <code>
+class Persona {
+    constructor(nombre) {
+        this.nombre = nombre;
+    }
+    saludar() {
+        console.log(`Hola, mi nombre es ${this.nombre}`);
+    }
+}
+const juan = new Persona('Juan');
+juan.saludar(); // Salida: Hola, mi nombre es Juan
+                            </code>
+                        </pre>
+                    </li>
+                    <li><strong>ES7:</strong> Ejemplo de "Array.prototype.includes":
+                        <pre>
+                            <code>
+const numeros = [1, 2, 3, 4, 5];
+console.log(numeros.includes(3)); // Salida: true
+                            </code>
+                        </pre>
+                    </li>
+                    <li><strong>ES8:</strong> Ejemplo de "async/await":
+                        <pre>
+                            <code>
+async function obtenerDatos() {
+    const respuesta = await fetch('https://api.example.com/datos');
+    const datos = await respuesta.json();
+    console.log(datos);
+}
+obtenerDatos();
+                            </code>
+                        </pre>
+                    </li>
+                    <li><strong>ES9:</strong> Ejemplo de "Promise.prototype.finally":
+                        <pre>
+                            <code>
+const promesa = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve('Éxito');
+    }, 1000);
+});
+promesa
+    .then((resultado) => {
+        console.log(resultado); // Salida: Éxito
+    })
+    .finally(() => {
+        console.log('La promesa se ha completado');
+    });
+                            </code>
+                        </pre>
+                    </li>
+                    <li><strong>ES10:</strong> Ejemplo de "Array.prototype.flat":
+                        <pre>
+                            <code>
+const arrayAnidado = [1, [2, 3], [4, 5]];
+const arrayPlano = arrayAnidado.flat();
+console.log(arrayPlano); // Salida: [1, 2, 3, 4, 5]
+                            </code>
+                        </pre>
+                    </li>
+                    <li><strong>ES11:</strong> Ejemplo de "BigInt":
+                        <pre>
+                            <code>
+const numeroGrande = BigInt(123456789012345678901234567890);
+console.log(numeroGrande); // Salida: 123456789012345678901234567890n
+                            </code>
+                        </pre>
+                    </li>
+                    <li><strong>ES12:</strong> Ejemplo de "String.prototype.replaceAll":
+                        <pre>
+                            <code>
+const texto = "Hola, mundo. Hola, JavaScript.";
+const nuevoTexto = texto.replaceAll("Hola", "Adiós");
+console.log(nuevoTexto); // Salida: Adiós, mundo. Adiós, JavaScript.
+                            </code>
+                        </pre>
+                    </li>
+                    <li><strong>ES13:</strong> Ejemplo de "class fields":
+                        <pre>
+                            <code>
+class Persona {
+    nombre = 'Juan';
+    saludar() {
+        console.log(`Hola, mi nombre es ${this.nombre}`);
+    }
+}
+const juan = new Persona();
+juan.saludar(); // Salida: Hola, mi nombre es Juan
+                            </code>
+                        </pre>
+                    </li>
+                    <li><strong>ES14:</strong> Ejemplo de "Array.prototype.findLast":
+                        <pre>
+                            <code>
+const numeros = [1, 2, 3, 4, 5];
+const ultimoPar = numeros.findLast((num) => num % 2 === 0);
+console.log(ultimoPar); // Salida: 4
+                            </code>
+                        </pre>
+                    </li>
+                    <li><strong>ES15:</strong> Propuestas en discusión, sin ejemplos específicos.</li>
+                    <li><strong>ES16:</strong> Propuestas en discusión, sin ejemplos específicos.</li>
+                </ul>
+            </article>
+        </section>
+
+        <footer class="pie"></footer>
+    </main>
+</body>
+
+</html>
