@@ -4,14 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ECMAScript</title>
+    <link rel="stylesheet" href="./CSS/estilos.css">
 </head>
 
 <body>
     <main>
-        <header class="cabecera"></header>
-        <nav class="navegacion"></nav>
-        <section>
+        <header class="cabecera">
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="#que-es-ecmascript">¿Qué es ECMAScript?</a></li>
+                    <li><a href="#versiones-ecmascript">Versiones de ECMAScript</a></li>
+                    <li><a href="#diferencias-versiones">Diferencias entre versiones</a></li>
+                    <li><a href="#como-usar-ecmascript">Cómo usar ECMAScript</a></li>
+                    <li><a href="#ejemplos-versiones">Ejemplos de cada versión</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="que-es-ecmascript">
             <article>
                 <h1>Qué es ECMAScript</h1>
                 <p>ECMAScript específicamente es el estándar que a partir del año 2015 a la actualidad se encarga de
@@ -27,10 +37,11 @@
             </article>
         </section>
 
-        <section>
+        <section id="versiones-ecmascript">
+            <h1>Versiones de ECMAScript</h1>
             <p>La lista de versiones de ECMA Script es larga. A continuación se muestra cuáles han existido a lo largo
                 de los años.</p>
-            <table class="tabla" border="1" cellspacing="0" cellpadding="5" width="100%">
+            <table class="tabla">
                 <caption>Versiones de ECMAScript</caption>
                 <thead>
                     <tr>
@@ -141,7 +152,7 @@
             </table>
         </section>
 
-        <section>
+        <section id="diferencias-versiones">
             <article>
                 <h1>Diferencias notorias entre versiones</h1>
                 <p>Las diferencias entre las versiones de ECMAScript son significativas, ya que cada versión introduce
@@ -181,7 +192,7 @@
             </article>
         </section>
 
-        <section>
+        <section id="como-usar-ecmascript">
             <h1>Como usar ECMAScript</h1>
             <p>Para usar ECMAScript, simplemente necesitas un entorno que lo soporte. La mayoría de los navegadores
                 modernos
@@ -216,13 +227,15 @@ class Persona {
                 información sobre las características específicas que admite.</p>
         </section>
 
-        <section>
+        <section id="ejemplos-versiones">
             <article>
                 <h1>Ejemplos de cada version</h1>
                 <p>A continuación se presentan ejemplos de código para cada versión de ECMAScript:</p>
                 <ul>
-                    <li><strong>ES1:</strong> No hay ejemplos específicos, ya que es la primera versión del estándar.</li>
-                    <li><strong>ES2:</strong> No hay ejemplos específicos, ya que es una versión de corrección de errores.
+                    <li><strong>ES1:</strong> No hay ejemplos específicos, ya que es la primera versión del estándar.
+                    </li>
+                    <li><strong>ES2:</strong> No hay ejemplos específicos, ya que es una versión de corrección de
+                        errores.
                     </li>
                     <li><strong>ES3:</strong> Ejemplo de expresiones regulares:
                         <pre>
@@ -354,7 +367,13 @@ console.log(ultimoPar); // Salida: 4
             </article>
         </section>
 
-        <footer class="pie"></footer>
+        <footer class="pie">
+            <small>
+                <p>Realizado por: <strong>Bryan Villabona</strong></p>
+                <p>Fecha: <strong>20 Mayo 2025</strong></p>
+            </small>
+
+        </footer>
     </main>
 </body>
 
