@@ -213,6 +213,18 @@ footer p {
     margin: 0;
 }   
 
+code {
+    background-color: #f4f4f4;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: monospace;
+    color: #333;
+    font-size: 1em;
+    display: block;
+    margin: 10px 0;
+
+}
+
 @media (min-width: 500px) {
     .tabla {
         width: 90%;
@@ -353,8 +365,6 @@ footer p {
 
     #ejemplos-versiones ul {
         width: 100%;
-        overflow: auto;
-        white-space: nowrap;
     }
 
     header {
@@ -365,4 +375,5 @@ footer p {
         font-size: 2em;
     }
 }
+
 
